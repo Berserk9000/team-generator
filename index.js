@@ -5,6 +5,7 @@ const Employee = require('./lib/Employee')
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
+const gt = require('./dist/generate');
 
 
 // arrays to hold new team members
@@ -197,3 +198,9 @@ function addIntern() {
 // start app
 addManager();
 
+// function to write myTeam html file 
+function build() {
+    fs.writeFileSync('myTeam.html', gt(teamManager, teamEngineer, teamIntern));
+    console.log("myTeam.html file succesfully created!");
+        
+};
