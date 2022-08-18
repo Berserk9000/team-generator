@@ -1,3 +1,3 @@
 # Description 
 Using node inquirer jest and user input to generate an HTML file.
-https://user-images.githubusercontent.com/105026484/185501181-73f48cf5-6de2-40e6-9618-f746c906f891.png
+![chall10](https://user-images.githubusercontent.com/105026484/185501769-4691512d-b84d-4e19-a908-ea8af03aa1c4.png)
